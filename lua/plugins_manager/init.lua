@@ -49,8 +49,16 @@ require("lazy").setup({
   end
 },
 'm4xshen/autoclose.nvim',
-"lukas-reineke/indent-blankline.nvim",
-'Darazaki/indent-o-matic'
+{
+  'glepnir/dashboard-nvim',
+  event = 'VimEnter',
+  config = function()
+    require('dashboard').setup {
+      -- config
+    }
+  end,
+  dependencies = { {'nvim-tree/nvim-web-devicons'}}
+}
 
 
 
