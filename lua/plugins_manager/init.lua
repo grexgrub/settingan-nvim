@@ -24,6 +24,7 @@ require("lazy").setup({
   end
 },
 'karb94/neoscroll.nvim',
+  'nvim-lua/plenary.nvim',
 'luukvbaal/nnn.nvim',
 "nvim-tree/nvim-tree.lua",
 "nvim-tree/nvim-web-devicons",
@@ -41,6 +42,8 @@ require("lazy").setup({
 'ThePrimeagen/vim-be-good',
 'neovim/nvim-lspconfig',
 'jose-elias-alvarez/null-ls.nvim',
+'MunifTanjim/eslint.nvim',
+'nvim-telescope/telescope.nvim', tag = '0.1.1',
 {
   "https://git.sr.ht/~nedia/auto-format.nvim",
   event = "BufWinEnter",
@@ -58,7 +61,8 @@ require("lazy").setup({
     }
   end,
   dependencies = { {'nvim-tree/nvim-web-devicons'}}
-}
+},
+{'akinsho/toggleterm.nvim', version = "*", config = true}
 
 
 

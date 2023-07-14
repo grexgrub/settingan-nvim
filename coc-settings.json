@@ -8,7 +8,12 @@
     }
   },
   "emmet.includeLanguages": {
-      "php" : "html"
+      "php" : "html",
+      "jsx" : "html",
+      "javascript" : "html"
+  },
+   "emmet.syntaxProfiles": {
+    "hbs": "html"
   },
   "snippets.ultisnips.pythonPrompt": false,
   "[php]": {
